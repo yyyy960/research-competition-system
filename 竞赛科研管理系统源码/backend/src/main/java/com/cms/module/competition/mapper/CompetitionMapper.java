@@ -1,0 +1,7 @@
+package com.cms.module.competition.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.cms.module.competition.entity.Competition;
+
+public interface CompetitionMapper extends BaseMapper<Competition> {
+}
