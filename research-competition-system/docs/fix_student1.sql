@@ -1,0 +1,15 @@
+SET NAMES utf8mb4;
+UPDATE sys_user SET real_name = '李明', email = 'liming@hhtc.edu.cn', phone = '13874560001' WHERE username = 'student1';
+UPDATE competition_achievement SET participants = '李明,王芳,赵强', advisor = '陈教授' WHERE submit_user_id = 2 AND id = 13;
+UPDATE competition_achievement SET participants = '李明,陈静,周磊' WHERE submit_user_id = 2 AND id = 14;
+UPDATE competition_achievement SET participants = '李明,刘思雨,吴凡' WHERE submit_user_id = 2 AND id = 17;
+UPDATE competition_achievement SET participants = '李明,王婷,赵磊,张敏' WHERE submit_user_id = 2 AND id = 19;
+UPDATE competition_achievement SET participants = '李明,陈明,赵丽,黄磊' WHERE submit_user_id = 2 AND id = 22;
+UPDATE competition_achievement SET participants = '李明,刘洋,孙悦' WHERE submit_user_id = 2 AND id = 20;
+UPDATE competition_achievement SET participants = '李明,吴思,周婷' WHERE submit_user_id = 2 AND id = 23;
+UPDATE innovation_project SET members = '李明,王芳,赵强' WHERE submit_user_id = 2 AND id = 1;
+UPDATE innovation_project SET members = '李明,刘思雨,孙悦' WHERE submit_user_id = 2 AND id = 3;
+UPDATE innovation_project SET members = '李明,张强,李伟' WHERE submit_user_id = 2 AND id = 5;
+UPDATE innovation_project SET members = '李明,王婷,赵磊,张敏' WHERE submit_user_id = 2 AND id = 7;
+UPDATE software_copyright SET copyright_owner = '李明' WHERE submit_user_id = 2;
+UPDATE academic_paper SET authors = '李明,张伟,王芳' WHERE submit_user_id = 2;
